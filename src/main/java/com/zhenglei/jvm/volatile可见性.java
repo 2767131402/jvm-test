@@ -12,7 +12,7 @@ class MyData{
     }
 }
 
-public class JVM可见性 {
+public class volatile可见性 {
     public static void main(String[] args) {
         MyData myData = new MyData();
         new Thread(()->{
